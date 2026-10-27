@@ -9,7 +9,7 @@ export default function Navbar() {
                     href="#home"
                     className="font-editorial text-2xl font-semibold tracking-tight text-[#262626]"
                 >
-                    Franz Llanes<span className="text-[#747b66]">.</span>
+                    {profile.shortName}<span className="text-[#747b66]">.</span>
                 </a>
 
                 <div className="flex items-center gap-5 text-xs font-medium tracking-wide text-[#666] sm:gap-8 sm:text-sm">
