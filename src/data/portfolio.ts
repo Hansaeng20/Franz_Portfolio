@@ -39,7 +39,7 @@ export const projects = [
         name: 'Pamana Beach House',
         category: 'Frontend Web Development',
         description:
-            'Designed, developed, and deployed a responsive website for a beach house rental property in Calatagan, Batangas using React and TypeScript.',
+            'Designed, developed, and deployed a responsive website for a beach house resort in Calatagan, Batangas using React and TypeScript.',
         technologies: [
             'React',
             'TypeScript',
