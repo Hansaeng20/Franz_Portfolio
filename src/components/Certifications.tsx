@@ -1,37 +1,35 @@
-
 import { certifications } from '../data/portfolio'
+import Reveal from './Reveal'
+import Section from './Section'
 
 export default function Certifications() {
     return (
-        <section id="certifications" className="border-t border-zinc-200 py-16">
-            <div className="grid gap-7 sm:grid-cols-[180px_1fr]">
-                <h2 className="text-sm font-semibold">
-                    Certifications
-                </h2>
-
-                <div className="divide-y divide-zinc-200">
+        <Section
+            id="certifications"
+            index="05"
+            label="Credentials"
+            title="Certifications"
+        >
+            <Reveal>
+                <ul className="border-b border-line">
                     {certifications.map((certification) => (
-                        <div
+                        <li
                             key={certification.name}
-                            className="flex flex-col justify-between gap-1 py-3 sm:flex-row sm:gap-6"
+                            className="group grid grid-cols-[1fr_auto] gap-x-6 gap-y-1 border-t border-line py-4 sm:grid-cols-[1fr_140px_80px]"
                         >
-                            <div>
-                                <p className="text-sm font-medium">
-                                    {certification.name}
-                                </p>
-
-                                <p className="mt-1 text-xs text-zinc-500">
-                                    {certification.issuer}
-                                </p>
-                            </div>
-
-                            <span className="shrink-0 text-xs text-zinc-500">
+                            <p className="text-[15px] text-ink transition-colors group-hover:text-sage">
+                                {certification.name}
+                            </p>
+                            <p className="order-3 text-xs text-faint sm:order-none sm:pt-1 sm:text-sm sm:text-muted">
+                                {certification.issuer}
+                            </p>
+                            <p className="pt-1 text-right text-xs tabular-nums text-faint">
                                 {certification.date}
-                            </span>
-                        </div>
+                            </p>
+                        </li>
                     ))}
-                </div>
-            </div>
-        </section>
+                </ul>
+            </Reveal>
+        </Section>
     )
 }
