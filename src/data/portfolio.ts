@@ -87,7 +87,17 @@ export const skills = [
     },
 ]
 
-export const certifications = [
+export type Certification = {
+    name: string
+    issuer: string
+    date: string
+    /** Optional badge image in /public/badges (e.g. '/badges/data-science-essentials.png'). Falls back to the issuer logo. */
+    badge?: string
+    /** Optional verification link (e.g. a Credly badge URL). */
+    url?: string
+}
+
+export const certifications: Certification[] = [
     { name: 'Data Science Essentials with Python', issuer: 'Cisco', date: 'Nov 2026' },
     { name: 'Google AI Professional Certificate', issuer: 'Google', date: 'Sep 2026' },
     { name: 'Introduction to Generative AI Learning Path', issuer: 'Google Cloud', date: 'Jun 2026' },
