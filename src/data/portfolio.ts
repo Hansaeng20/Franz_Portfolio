@@ -139,6 +139,13 @@ export const certifications: Certification[] = [
         url: 'https://www.credly.com/badges/3b0b5053-57c4-4f00-852a-8684f02308b1/public_url',
     },
     {
+        name: 'IT Specialist – Networking',
+        issuer: 'Certiport',
+        date: 'Oct 2025',
+        badge: '/badges/it-specialist-networking.png',
+        url: 'https://www.credly.com/badges/851594e0-21fe-4bda-a7da-a117e614101d/public_url',
+    },
+    {
         name: 'Endpoint Security',
         issuer: 'Cisco',
         date: 'Sep 2025',
@@ -146,13 +153,6 @@ export const certifications: Certification[] = [
         url: 'https://www.credly.com/badges/a608a6cd-41c7-4564-b4d4-cafa0faebac1/public_url',
     },
     { name: 'Networking Basics', issuer: 'Cisco', date: 'Aug 2025' },
-    {
-        name: 'IT Specialist – Networking',
-        issuer: 'Certiport',
-        date: 'Oct 2024',
-        badge: '/badges/it-specialist-networking.png',
-        url: 'https://www.credly.com/badges/851594e0-21fe-4bda-a7da-a117e614101d/public_url',
-    },
     {
         name: 'CompTIA IT Fundamentals+',
         issuer: 'CompTIA',
