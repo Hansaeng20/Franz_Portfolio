@@ -88,6 +88,7 @@ export const skills = [
 ]
 
 export const certifications = [
+    { name: 'Data Science Essentials with Python', issuer: 'Cisco', date: 'Nov 2026' },
     { name: 'Google AI Professional Certificate', issuer: 'Google', date: 'Sep 2026' },
     { name: 'Introduction to Generative AI Learning Path', issuer: 'Google Cloud', date: 'Jun 2026' },
     { name: 'Network Support and Security', issuer: 'Cisco', date: 'Jun 2026' },
