@@ -152,6 +152,27 @@ export const certifications: Certification[] = [
         badge: '/badges/endpoint-security.png',
         url: 'https://www.credly.com/badges/a608a6cd-41c7-4564-b4d4-cafa0faebac1/public_url',
     },
+    {
+        name: 'Network Addressing and Basic Troubleshooting',
+        issuer: 'Cisco',
+        date: 'Sep 2025',
+        badge: '/badges/network-addressing-and-troubleshooting.png',
+        url: 'https://www.credly.com/badges/a93c2750-cf00-48d9-aca1-806d94338ecd/public_url',
+    },
+    {
+        name: 'Introduction to IoT',
+        issuer: 'Cisco',
+        date: 'Aug 2025',
+        badge: '/badges/introduction-to-iot.png',
+        url: 'https://www.credly.com/badges/7b6b8db2-0359-46fd-aad6-a519ef19112a/public_url',
+    },
+    {
+        name: 'Introduction to Cybersecurity',
+        issuer: 'Cisco',
+        date: 'Aug 2025',
+        badge: '/badges/introduction-to-cybersecurity.png',
+        url: 'https://www.credly.com/badges/7ce258ea-1c39-4c2d-bea6-ca65f91a3794/public_url',
+    },
     { name: 'Networking Basics', issuer: 'Cisco', date: 'Aug 2025' },
     {
         name: 'CompTIA IT Fundamentals+',
