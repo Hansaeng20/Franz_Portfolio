@@ -173,7 +173,13 @@ export const certifications: Certification[] = [
         badge: '/badges/introduction-to-cybersecurity.png',
         url: 'https://www.credly.com/badges/7ce258ea-1c39-4c2d-bea6-ca65f91a3794/public_url',
     },
-    { name: 'Networking Basics', issuer: 'Cisco', date: 'Aug 2025' },
+    {
+        name: 'Networking Basics',
+        issuer: 'Cisco',
+        date: 'Aug 2025',
+        badge: '/badges/networking-basics.png',
+        url: 'https://www.credly.com/badges/879461a2-3bf0-4763-ba93-8094eb27e337/public_url',
+    },
     {
         name: 'CompTIA IT Fundamentals+',
         issuer: 'CompTIA',
